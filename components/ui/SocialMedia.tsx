@@ -1,5 +1,5 @@
 import { socialMedia } from '@/data'
-import { div } from 'framer-motion/client'
+
 import Image from 'next/image'
 import React from 'react'
 
@@ -12,9 +12,9 @@ const SocialMedia = () => {
               <Image
                 src={img}
                 alt={alt}
-                width={30}
-                height={30}
-                className='rounded-full border-[0.05rem] p-1 border-blue-950 dark:border-white'
+                width={50}
+                height={50}
+                className='rounded-full border-[0.05rem] p-2 border-blue-950 dark:border-white'
 
               
               />

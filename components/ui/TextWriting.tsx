@@ -42,7 +42,7 @@ const TypingText: React.FC = () => {
   }, [text, isDeleting, roleIndex]);
 
   return (
-    <h2 className="text-2xl md:text-2xl font-bold text-white pb-4">
+    <h2 className="text-2xl md:text-2xl font-bold text-center pb-1 lg:text-left text-white pb-4">
       I'm a <span>{text}</span>
       <span className="border-r-4 border-blue-400 animate-pulse ml-1" />
     </h2>

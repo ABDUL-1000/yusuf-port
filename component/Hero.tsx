@@ -2,16 +2,19 @@ import MagicButton from "@/components/ui/MagicButton";
 import { Spotlight } from "@/components/ui/SportLight";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateeEffect";
 import { cn } from "@/lib/utils";
-import { div } from "motion/react-client";
+
 import React from "react";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaDownload, FaLocationArrow, FaShower } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import TypingText from "@/components/ui/TextWriting";
 import Image from "next/image";
 import pics from '@/public/PICS.png'
 import SocialMedia from "@/components/ui/SocialMedia";
+import { Button, Button1 } from "@/components/ui/MvvingBar";
+
 
 const Hero = () => {
+ 
   return (
     <div className="">
       <div className="  h-screen w-full rounded-md flex items-center justify-center md:items-center md:justify-center antialiased bg-grid-white/[1] relative overflow-hidden">
@@ -30,28 +33,46 @@ const Hero = () => {
           <div className="pointer-events-none relative inset-0 flex items-center justify-center bg-[#000319] [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-[#000319] " />
         </div>
         <div className="relative lg:flex lg:flex-row-reverse md:flex md:flex-row-reverse  lg:">
-          <div className="flex flex-col justify-center items-center lg:w-[30%]  m-auto">
-          <div className="relative lg:w-75 lg:h-70 w-45 h-40 mb-2">
+          <motion.div 
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          className="flex flex-col justify-center items-center lg:w-[30%]  m-auto">
+          <div className="relative lg:w-75 lg:h-75 w-45 h-40 mb-2">
         {/* Rotating circle */}
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-full h-full border-t-4 border-blue-950 rounded-full animate-loading-bar blur-sm"></div>
-        </div>
+       
 
         {/* Profile image */}
+        <Button1
+
+        borderRadius="2rem"
+        className="bg-white dark:bg-slate-900 rounded-full text-black dark:text-white border-neutral-200 dark:border-slate-800"
+      >
         <Image
           src={pics} 
           alt="Profile"
           className="w-full h-full object-cover rounded-full border-4 border-white relative z-10"
         />
+        </Button1>
       </div>
-          </div>
+          </motion.div>
+
 
           <div className=" md:max-w-2xl lg:max-w- flex items-center justify-center flex-col lg:flex lg:items-start lg:p-6 ">
+            <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2 }}
+  
+            >
+             <div className=" md:max-w-2xl lg:max-w- flex items-center justify-center flex-col lg:flex lg:items-start lg: ">
             <TextGenerateEffect
-              className=" text-[30px] text-center lg:text-start  md:text-3xl lg:text-6xl"
+              className=" text-[30px] text-center lg:text-start  md:text-2xl lg:text-5xl"
               words="Hey there, I'm
 Yusuff Abdulkareem Abdullateef"
             />
+            </div>
+              </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
@@ -59,17 +80,19 @@ Yusuff Abdulkareem Abdullateef"
             >
               <TypingText />
             </motion.div>
-            <div className=" flex lg:flex-row flex-col items-center justify-center">
+            <motion.div   initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }} className=" flex lg:flex-row flex-col items-center justify-center">
             <a href="#about">
            
               <MagicButton
                 title="show my work"
-                icon={<FaLocationArrow />}
+               
                 position="right"
               />
             </a>
             <SocialMedia/>
-            </div>
+            </motion.div>
           </div>
            
           <div>

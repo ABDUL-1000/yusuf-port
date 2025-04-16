@@ -1,11 +1,10 @@
-import git from '@/public/git.svg';
-import twitter from '@/public/twit.svg';
-import linkedin from '@/public/link.svg';
+
+
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
+    { name: "Projects", link: "#Project" },
+    { name: "Testimonials", link: "#Clients" },
+    { name: "Contact", link: "#Footer" },
   ];
   
   export const gridItems = [
@@ -75,11 +74,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Personal Portfolio",
+      des: "The website features my skills and project showcase",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://abdullateef.vercel.app/",
     },
     {
       id: 2,
@@ -207,19 +206,25 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: git,
+      img: '/git.svg',
       alt: 'GitHub',
       href: 'https://github.com/yourusername', // optional: add your link
     },
     {
       id: 2,
-      img: twitter,
+      img: '/twit.svg',
       alt: 'Twitter',
       href: 'https://twitter.com/yourusername',
     },
     {
       id: 3,
-      img: linkedin,
+      img: '/link.svg',
+      alt: 'LinkedIn',
+      href: 'https://linkedin.com/in/yourusername',
+    },
+    {
+      id: 4,
+      img: '/wha.svg',
       alt: 'LinkedIn',
       href: 'https://linkedin.com/in/yourusername',
     },
