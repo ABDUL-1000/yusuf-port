@@ -11,7 +11,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Clients from "@/components/Clients";
 
 import { AnimatedPinDemo } from "@/components/AnimatedCard";
-import Project from "@/components/Project";
+
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
@@ -25,8 +25,6 @@ export default function Home() {
     <FloatingNav navItems={navItems}/>
     <Hero/>
     <Grid/>
-    {/* <Project/> */}
-    {/* <AnimatedPinDemo/> */}
     <Clients/>
     <Experience/>
     <Approach/>
