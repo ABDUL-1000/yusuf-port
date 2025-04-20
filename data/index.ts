@@ -104,6 +104,14 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://abdul-1000.github.io/cert-gene/",
     },
+    {
+      id: 5,
+      title: "CERTIFICATE GENERATOR",
+      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      img: "/p4.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://abdul-1000.github.io/cert-gene/",
+    },
   ];
   
   export const testimonials = [
