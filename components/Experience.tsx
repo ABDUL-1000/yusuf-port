@@ -5,13 +5,7 @@ import { Button } from './ui/MvvingBar'
 const Experience = () => {
   return (
     <div className='py-20'>
-    <h1 className='text-center lg:text-[3rem] font-bold text-sm'>
-        My {''}
-        <span className='text-purple-300'> Work Experience
-
-        </span>
-
-    </h1>
+   
   <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 items-center gap-10'>
    {workExperience.map((card) => (
       <Button

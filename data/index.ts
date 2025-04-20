@@ -82,27 +82,27 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
+      title: "TMMS - Project",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://tmmmsapp.com/",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
+      title: "AI LANGUAGE TRANSLATOR",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://stage-3-hng-psi.vercel.app/",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
+      title: "CERTIFICATE GENERATOR",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://abdul-1000.github.io/cert-gene/",
     },
   ];
   
@@ -208,24 +208,24 @@ export const navItems = [
       id: 1,
       img: '/git.svg',
       alt: 'GitHub',
-      href: 'https://github.com/yourusername', // optional: add your link
+      href: 'https://github.com/ABDUL-1000', // optional: add your link
     },
     {
       id: 2,
       img: '/twit.svg',
-      alt: 'Twitter',
-      href: 'https://twitter.com/yourusername',
+      alt: 'https://x.com/ABDULKARIM98104',
+      href: 'https://x.com/ABDULKARIM98104',
     },
     {
       id: 3,
       img: '/link.svg',
       alt: 'LinkedIn',
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'www.linkedin.com/in/abdullatif-abdulkarim-104397235www.linkedin.com/in/abdullatif-abdulkarim-104397235',
     },
     {
       id: 4,
       img: '/wha.svg',
-      alt: 'LinkedIn',
-      href: 'https://linkedin.com/in/yourusername',
+      alt: 'whatsAPP',
+      href: 'http://wa.me/2349065866898',
     },
   ];
