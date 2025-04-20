@@ -10,7 +10,6 @@ import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Clients from "@/components/Clients";
 
-import { AnimatedPinDemo } from "@/components/AnimatedCard";
 
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
