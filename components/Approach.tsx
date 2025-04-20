@@ -10,15 +10,15 @@ const Approach = () => {
     <section className="w-full py-20">
        <h1 className='text-center lg:text-[3rem] font-bold text-sm'>
         My {''}
-        <span className='text-purple-300'> Work Experience
+        <span className='text-purple-300'> Work Approach
 
         </span>
 
     </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto ">
-        <Card title="Sheetal is Nisha" 
+        <Card title="Planing and strategy" 
         icon={<AceternityIcon 
-          order="Planing and strategy" />}
+          order="phase 1" />}
           description="we'll collaborte to map out your website's goals, target audience, and key functionalities. we'll discuss things like site structure, navigation and content requirements.">
             
           <CanvasRevealEffect
