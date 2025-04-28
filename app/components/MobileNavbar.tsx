@@ -4,22 +4,22 @@ import React, { useState } from "react";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
+ 
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "./ui/sheet";
 
 import { Button } from "./ui/button";
-import { BellIcon, HomeIcon, MenuIcon, MoonIcon, SunIcon } from "lucide-react";
+
 import Link from "next/link";
-import ModeToggle from "./ModeToggle";
+
 import { useTheme } from "next-themes";
 
 function MobileNavbar() {
 
   const [menuOpen, setMenuOpen] = useState(false);
-  const { theme, setTheme } = useTheme();
+
 
   return (
     <div className="md:hidden space-x-2">
@@ -28,9 +28,9 @@ function MobileNavbar() {
 
       <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
         <SheetTrigger>
-          <Button variant="ghost" size="icon">
+         
            <img src="/Frame 30.png" alt="menuIcon" className="w-6 h-6"/>
-          </Button>
+         
         </SheetTrigger>
         <SheetContent side="right" className="w-[90%]">
           <SheetHeader>

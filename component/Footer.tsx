@@ -2,7 +2,7 @@ import { Button } from '@/app/components/ui/button'
 import React from 'react'
 import { CiMail } from "react-icons/ci";
 import { motion } from 'framer-motion'; // Import framer-motion
-import Link from 'next/link';
+
 
 const Footer = () => {
   return (

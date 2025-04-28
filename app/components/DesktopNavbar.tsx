@@ -1,8 +1,8 @@
 
 import React from "react";
-import ModeToggle from "./ModeToggle";
+
 import { Button } from "./ui/button";
-import { BellIcon, HomeIcon, UserIcon } from "lucide-react";
+
 import Link from "next/link";
 
 
