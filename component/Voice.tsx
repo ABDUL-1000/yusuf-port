@@ -24,7 +24,7 @@ const Voice = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.2 }} // Delay each card's animation
               >
-                <p className="text-white font-[Manrope] text-[18px] font-normal">
+                <p className="text-white font-[Manrope] text-[14px] font-normal">
                   {item.desc}
                 </p>
                 <h2 className="text-[#757575] font-[Manrope] text-[15px] font-medium">

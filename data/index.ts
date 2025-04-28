@@ -14,7 +14,7 @@ export const navItems = [
       id: 1,
       title: "Payloow",
       des: "Figma · Mobile & Web",
-      img: "/pro1.jpg",
+      img: "/payloow.jpg",
      
       link: "",
     },
@@ -22,7 +22,7 @@ export const navItems = [
       id: 2,
       title: "XtateHub",
       des: "Figma · Mobile & Web",
-      img: "/pro2.jpg",
+      img: "/xtate.jpg",
       
       link: "",
     },
@@ -30,7 +30,7 @@ export const navItems = [
       id: 3,
       title: "Arewaflix",
       des: "Arewaflix",
-      img: "/pro3.jpg",
+      img: "/arewa.jpg",
     
       link: "https://stage-3-hng-psi.vercel.app/",
     },
@@ -38,7 +38,7 @@ export const navItems = [
       id: 4,
       title: "Onims Agro",
       des: "Figma · Web App",
-      img: "/pro4.jpg",
+      img: "/onims.jpg",
      
       link: "",
     },
@@ -46,7 +46,7 @@ export const navItems = [
       id: 5,
       title: "Vysk Kitchen",
       des: "Figma · Website",
-      img: "/pro5.jpg",
+      img: "/vysk.jpg",
     
       link: "",
     },
@@ -54,7 +54,7 @@ export const navItems = [
       id: 6,
       title: "Skilline",
       des: "CSS, Tailwind · Landing Page",
-      img: "/pro6.jpg",
+      img: "/skilline.jpg",
      
       link: "https://skilline-landing-page-nine.vercel.app/",
     },
@@ -142,8 +142,8 @@ export const navItems = [
     },
     {
     
-      title: "Kelechi O., Developer @ Co-Dev Hub",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Maryam Bima - Mentee",
+      desc: "I'm thankful to have met Yusuf. He is amazing and knowledgeable. He has inspired me a lot as well. He is a great designer whose method of teaching and explaining is unique. I have clear goals and objectives thanks to him. It's great having him as a mentor.",
      
     },
     {

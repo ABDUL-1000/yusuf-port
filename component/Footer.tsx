@@ -2,6 +2,7 @@ import { Button } from '@/app/components/ui/button'
 import React from 'react'
 import { CiMail } from "react-icons/ci";
 import { motion } from 'framer-motion'; // Import framer-motion
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -53,7 +54,9 @@ const Footer = () => {
         <img src="/Frame 49.png" alt="Gituhub" className='w-6 h-6'/>
       </motion.div>
       <div>
-        <p className='text-[9px] lg:text-[12px]'>Built with ❤️ by me.</p>
+      
+        <p className='text-[6px] lg:text-[12px]'>Built by Yusuf &  <a href="https://abdullateeftsx.vercel.app/" target='_blank'> <span className='hover:cursor-pointer hover:text-[#0072FF]'> Abdullatif Abdulkarim. </span> </a> </p>
+      
       </div>
       </div>
     </div>
